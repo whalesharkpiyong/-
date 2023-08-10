@@ -61,11 +61,12 @@
       margin: 10px auto 10px auto;
     }
 
-    .card-img-top{
-            position: relative;
-            width: 100%;
-            height: 220px;
-            overflow: hidden;
+    .card-img-top {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      object-position: top;
     }
 
     .mypost {
@@ -82,7 +83,6 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
-
       margin-top: 20px;
     }
 
@@ -100,13 +100,14 @@
       width: 800px;
       margin: 50px auto 80px auto;
     }
-    .page{
+
+    .page {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-
       list-style: none;
+      margin: 150px auto auto auto
     }
   </style>
   <script>
@@ -142,10 +143,11 @@
       counter.innerHTML = `D-${result}`
     </script>
     <button
-      onclick="location.href='https://www.notion.so/63e4c1e7619f4f3eb83bb21c8db16195?v=5c340f5cd39947c4b58d2712e7070e95'">팀 Notion
+      onclick="location.href='https://www.notion.so/63e4c1e7619f4f3eb83bb21c8db16195?v=5c340f5cd39947c4b58d2712e7070e95'">팀
+      Notion
       바로 가기🤟</button>
   </div>
-  
+
   <div class="member">
     <h2>팀원 소개</h2>
     <table class="table">
@@ -195,8 +197,8 @@
       <div class="col">
         <div class="card h-100">
           <img
-          src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZIuXgDofNrOab8XnYOJ6ge3aFm1BEKitpuFPdgSdSgV49UE91EySMXgBwtS6xJBY-LoiS8OS0ziOzDY0"
-          class="card-img-top" alt="..." />
+            src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZIuXgDofNrOab8XnYOJ6ge3aFm1BEKitpuFPdgSdSgV49UE91EySMXgBwtS6xJBY-LoiS8OS0ziOzDY0"
+            class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">강상찬</h5>
             <p class="mycomment">"뭐든지 기초부터"</p>
@@ -205,7 +207,8 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRoY3Eg9iFRp3gumtaIyq7pTukLBehjSctQJ5yMRWh98MGPnmjfw59fNLltsqnQ1Ki7p8JWyWeRuxO6DE0" 
+          <img
+            src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRoY3Eg9iFRp3gumtaIyq7pTukLBehjSctQJ5yMRWh98MGPnmjfw59fNLltsqnQ1Ki7p8JWyWeRuxO6DE0"
             class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">김지수</h5>
