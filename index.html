@@ -61,6 +61,13 @@
       margin: 10px auto 10px auto;
     }
 
+    .card-img-top{
+            position: relative;
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+    }
+
     .mypost {
       background-color: white;
       width: 500px;
@@ -77,7 +84,6 @@
       justify-content: center;
 
       margin-top: 20px;
-
     }
 
     .mybtn>button {
@@ -85,14 +91,14 @@
     }
 
     .member {
-      width: 600px;
+      width: 800px;
       margin: 50px auto 20px auto;
       text-align: center;
     }
 
     .member>table {
-      width: 600px;
-      margin: 20px auto 80px auto;
+      width: 800px;
+      margin: 50px auto 80px auto;
     }
   </style>
   <script>
@@ -128,50 +134,19 @@
       counter.innerHTML = `D-${result}`
     </script>
     <button
-      onclick="location.href='https://www.notion.so/63e4c1e7619f4f3eb83bb21c8db16195?v=5c340f5cd39947c4b58d2712e7070e95'">Notion
+      onclick="location.href='https://www.notion.so/63e4c1e7619f4f3eb83bb21c8db16195?v=5c340f5cd39947c4b58d2712e7070e95'">팀 Notion
       바로 가기🤟</button>
   </div>
-  <div class="mypost">
-    <div class="form-floating mb-3">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">나를 대표하는 이미지 URL</label>
-    </div>
-    <div class="input-group mb-3">
-      <label class="input-group-text" for="inputGroupSelect01">Options</label>
-      <select class="form-select" id="inputGroupSelect01">
-        <option selected>나를 나타내는 아이콘</option>
-        <option value="1">🐿️</option>
-        <option value="2">🧚🏻</option>
-        <option value="3">👽</option>
-        <option value="3">👻</option>
-        <option value="3">👨🏻‍🍳</option>
-        <option value="3">🥷🏼</option>
-        <option value="3">👼🏻</option>
-        <option value="3">🕺🏻</option>
-        <option value="3">🦄</option>
-        <option value="3">🐜</option>
-      </select>
-    </div>
-
-    <div class="form-floating">
-      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-      <label for="floatingTextarea">나를 한줄로 소개하기</label>
-    </div>
-    <div class="mybtn">
-      <button type="button" class="btn btn-dark">기록하기</button>
-      <button type="button" class="btn btn-outline-dark">닫기</button>
-    </div>
-  </div>
+  
   <div class="member">
     <h2>팀원 소개</h2>
     <table class="table">
       <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">이름</th>
+          <th scope="col">이름 </th>
           <th scope="col">mbti</th>
           <th scope="col">블로그 주소</th>
-          <th scope="col">한마디</th>
           <th scope="col">TMI</th>
         </tr>
       </thead>
@@ -180,25 +155,22 @@
           <th scope="row">1</th>
           <td>강상찬</td>
           <td>INTP</td>
-          <td>OOO</td>
-          <td>OOO</td>
-          <td>OOO</td>
+          <td>https://phoenicia.tistory.com/</td>
+          <td>더위가 끝났으면 좋겠지만 비도 안왔으면 좋겠음</td>
         </tr>
         <tr class="">
           <th scope="row">2</th>
           <td>김지수</td>
           <td>ENFP</td>
-          <td>OOO</td>
-          <td>OOO</td>
-          <td>OOO</td>
+          <td>https://lazycaterpillar.tistory.com/</td>
+          <td>최근에 아재개그가 늘었음</td>
         </tr>
         <tr>
           <th scope="row">3</th>
           <td>임규한</td>
           <td>ENFP</td>
           <td>https://velog.io/@hani654</td>
-          <td>버티자</td>
-          <td>지금 짬뽕이 먹고싶다</td>
+          <td>지금 짬뽕먹고 싶다</td>
         </tr>
         <tr>
           <th scope="row">4</th>
@@ -206,7 +178,6 @@
           <td>INFP</td>
           <td>https://velog.io/@nies</td>
           <td>파이팅</td>
-          <td>중화요리를 좋아함</td>
         </tr>
       </tbody>
     </table>
@@ -216,43 +187,43 @@
       <div class="col">
         <div class="card h-100">
           <img
-            src="https://www.jobaba.net/file/image.do?filePath=sONy7CFJVlHd+/JjdwFq+iS2HVEsSAv5J9kJDk6VJNWWtcEaYTwOm11GhF32XM4L"
-            class="card-img-top" alt="..." />
+          src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZIuXgDofNrOab8XnYOJ6ge3aFm1BEKitpuFPdgSdSgV49UE91EySMXgBwtS6xJBY-LoiS8OS0ziOzDY0"
+          class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">강상찬</h5>
-            <p class="mycomment">뭐든지 기초부터</p>
+            <p class="mycomment">"뭐든지 기초부터"</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfM_WyitKs6P6qITbSqBzhNhBCg1ghQQr3_A&usqp=CAU"
+          <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRoY3Eg9iFRp3gumtaIyq7pTukLBehjSctQJ5yMRWh98MGPnmjfw59fNLltsqnQ1Ki7p8JWyWeRuxO6DE0" 
             class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">김지수</h5>
-            <p class="mycomment">끝까지 하자!</p>
+            <p class="mycomment">"포기란 배추 셀때 쓰는 것"</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
           <img
-            src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002718/img/basic/a0002718_main.jpg?20200707153932"
+            src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQKYAUWeYWBCdny8x_iGHRKSB_dQ68R9QX0d40f2Cc0jWk0GW0IpQWgn2zrOfOP5R9pIrEFjvCl35ENEqc"
             class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">임규한</h5>
-            <p class="mycomment">버티자</p>
+            <p class="mycomment">"버티자"</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
           <img
-            src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/30/00/a3000252/img/ko/a3000252_main.jpg?20230309072300"
+            src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZPZapcMf8t8p2DxKY83L21gKqfUKIiBv2bWrGbDxErk8K_lknMg3HlL_yWLOyE81mUhTuEqfhY_ey7mk"
             class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">명세인</h5>
-            <p class="mycomment">파이팅</p>
+            <p class="mycomment">"파이팅"</p>
           </div>
         </div>
       </div>
